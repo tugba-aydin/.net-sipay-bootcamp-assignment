@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\source\\BookAPI\\BookAPI\\BookAPI.csproj": {}
+    "C:\\Users\\tugba\\Desktop\\ödev\\.net-sipay-bootcamp-assignment\\BookAPI\\BookAPI\\BookAPI.csproj": {}
   },
   "projects": {
-    "C:\\source\\BookAPI\\BookAPI\\BookAPI.csproj": {
+    "C:\\Users\\tugba\\Desktop\\ödev\\.net-sipay-bootcamp-assignment\\BookAPI\\BookAPI\\BookAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\source\\BookAPI\\BookAPI\\BookAPI.csproj",
+        "projectUniqueName": "C:\\Users\\tugba\\Desktop\\ödev\\.net-sipay-bootcamp-assignment\\BookAPI\\BookAPI\\BookAPI.csproj",
         "projectName": "BookAPI",
-        "projectPath": "C:\\source\\BookAPI\\BookAPI\\BookAPI.csproj",
+        "projectPath": "C:\\Users\\tugba\\Desktop\\ödev\\.net-sipay-bootcamp-assignment\\BookAPI\\BookAPI\\BookAPI.csproj",
         "packagesPath": "C:\\Users\\tugba\\.nuget\\packages\\",
-        "outputPath": "C:\\source\\BookAPI\\BookAPI\\obj\\",
+        "outputPath": "C:\\Users\\tugba\\Desktop\\ödev\\.net-sipay-bootcamp-assignment\\BookAPI\\BookAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

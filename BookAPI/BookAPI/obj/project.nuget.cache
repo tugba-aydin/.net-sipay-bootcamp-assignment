@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Sogh5UWIVLrVRfC3uClnalhn9HBQr9XT6fUDIXasZ/cOLkAuWQvjPZx/2b+mxXnV7x2DWnNeQqMQ1otY52SgUw==",
+  "dgSpecHash": "6WZch85pT5eVu3v5ce49SefRCIHqAB3tisShVLEzJTu2IcoNlR2MDkrTucmy2dVwwhgD1FKLoRCDNvLm48AG1g==",
   "success": true,
-  "projectFilePath": "C:\\source\\BookAPI\\BookAPI\\BookAPI.csproj",
+  "projectFilePath": "C:\\Users\\tugba\\Desktop\\ödev\\.net-sipay-bootcamp-assignment\\BookAPI\\BookAPI\\BookAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tugba\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\tugba\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

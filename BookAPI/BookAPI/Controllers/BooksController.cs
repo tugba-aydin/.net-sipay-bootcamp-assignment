@@ -46,7 +46,7 @@ namespace BookAPI.Controllers
         [HttpPatch]
         public IActionResult PartialUpdate(int id, decimal price)
         {
-            if (id.GetType() != typeof(int) && price.GetType()!=typeof(decimal) && id==0) return BadRequest();
+            if (id.GetType() != typeof(int) && price.GetType()!=typeof(decimal) && id==0) return StatusCode(400, "Please check id and price");
             var updateBook = Books.BookList.Where(b => b.Id == id).FirstOrDefault();
             if (updateBook == null) return StatusCode(404, "No Records Found");
             updateBook.Price = price;
