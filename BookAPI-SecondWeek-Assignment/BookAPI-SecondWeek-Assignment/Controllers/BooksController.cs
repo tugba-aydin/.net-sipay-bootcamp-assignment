@@ -9,6 +9,7 @@ namespace BookAPI.Controllers
     [ApiController]
     public class BooksController : ControllerBase
     {
+        //API endpoints prepared
         private readonly IBookService bookService;
         public BooksController(IBookService _bookService)
         {

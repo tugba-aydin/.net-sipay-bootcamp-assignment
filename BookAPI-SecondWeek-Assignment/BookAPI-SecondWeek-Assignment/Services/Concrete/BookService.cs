@@ -7,6 +7,8 @@ namespace BookAPI_SecondWeek_Assignment.Services.Concrete
 {
     public class BookService:IBookService
     {
+        //The service where the necessary transactions are made over the Repository for the book asset
+
         private readonly IRepository<Book> repository;
         public BookService(IRepository<Book> _repository) {
             repository = _repository;

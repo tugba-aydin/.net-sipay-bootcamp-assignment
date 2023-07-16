@@ -7,6 +7,7 @@ namespace BookAPI_SecondWeek_Assignment.Services.Concrete
 {
     public class FakeBookService : IFakeBookService
     {
+        //A fake service was created as requested in the assignment.
         private List<Book> books {  get; set; }
         public FakeBookService() {
             books = new List<Book>()

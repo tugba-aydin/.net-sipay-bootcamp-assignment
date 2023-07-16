@@ -5,6 +5,7 @@ namespace BookAPI_SecondWeek_Assignment.Middleware
 {
     public class LoggingMiddleware
     {
+        //A custom middleware has been written to do Global Logging.
         private readonly RequestDelegate next;
         private readonly ILoggingService logger;
 

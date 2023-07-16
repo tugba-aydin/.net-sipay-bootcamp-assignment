@@ -5,6 +5,8 @@ namespace BookAPI_SecondWeek_Assignment.Repository
 {
     public class Repository<T> : IRepository<T> where T : class
     {
+        // crud operations in Generic Repository
+
         private readonly ApplicationContext applicationContext;
         private readonly DbSet<T> table;
         public Repository(ApplicationContext _applicationContext) { 

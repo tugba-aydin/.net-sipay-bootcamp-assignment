@@ -9,9 +9,12 @@ namespace BookAPI_SecondWeek_Assignment.Extensions
 {
     public static class ServicesExtensions
     {
+        //Configured to connect to database
         public static void ConfigureSqlContext(this IServiceCollection services,
             IConfiguration configuration) => services.AddDbContext<ApplicationContext>(options =>
                     options.UseNpgsql(configuration.GetConnectionString("PostgreSql")));
+        
+        //Implementation of all services was done with DI
         public static void ConfigureRepositoryManager(this IServiceCollection services) =>
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
         public static void ConfigureBookServiceManager(this IServiceCollection services) =>
