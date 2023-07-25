@@ -11,7 +11,7 @@ namespace BookStore.BookOperations.GetBooks
         private readonly BookStoreDbContext dbContext;
         public GetBooksQuery(BookStoreDbContext _dbContext)
         {
-            dbContext = _dbContext; 
+            dbContext = _dbContext;
         }
         public List<BookViewModel> Handle()
         {
@@ -19,7 +19,8 @@ namespace BookStore.BookOperations.GetBooks
             List<BookViewModel> vm = new List<BookViewModel>();
             foreach (var book in bookList)
             {
-                vm.Add(new BookViewModel(){
+                vm.Add(new BookViewModel()
+                {
                     Title = book.Title,
                     Genre = ((GenreEnum)book.GenreId).ToString(),
                     PublishDate = book.PublishDate.Date.ToString("dd/MM/yyy"),
@@ -36,5 +37,5 @@ namespace BookStore.BookOperations.GetBooks
         public string Genre { get; set; }
         public string PublishDate { get; set; }
         public int PageCount { get; set; }
-}
+    }
 }

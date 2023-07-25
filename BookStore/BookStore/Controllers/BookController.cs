@@ -1,5 +1,6 @@
 ﻿using BookStore.BookOperations.CreateBook;
 using BookStore.BookOperations.GetBooks;
+using BookStore.BookOperations.GetById;
 using BookStore.BookOperations.UpdateBook;
 using BookStore.DbOperations;
 using Microsoft.AspNetCore.Mvc;
@@ -25,10 +26,12 @@ namespace BookStore.Controllers
             return Ok(result);
         }
         [HttpGet("{id}")]
-        public Book GetById(int id)
+        public IActionResult GetById(int id)
         {
-            var book = context.Books.Where(b=>b.Id== id).FirstOrDefault();
-            return book;
+            GetByIdQuery query = new GetByIdQuery(context);
+            query.Id = id;
+            var result=query.Handle();
+            return Ok(result);
         }
         [HttpPost]
         public IActionResult AddBook([FromBody] CreateBookModel newBook) 
