@@ -40,3 +40,10 @@ C:\Users\tugba\Desktop\cohorts\.net-sipay-bootcamp-assignment\BookStore\BookStor
 C:\Users\tugba\Desktop\cohorts\.net-sipay-bootcamp-assignment\BookStore\BookStore\obj\Debug\net5.0\BookStore.genruntimeconfig.cache
 C:\Users\tugba\Desktop\cohorts\.net-sipay-bootcamp-assignment\BookStore\BookStore\obj\Debug\net5.0\ref\BookStore.dll
 C:\Users\tugba\Desktop\cohorts\.net-sipay-bootcamp-assignment\BookStore\BookStore\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\tugba\Desktop\cohorts\.net-sipay-bootcamp-assignment\BookStore\BookStore\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\tugba\Desktop\cohorts\.net-sipay-bootcamp-assignment\BookStore\BookStore\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\tugba\Desktop\cohorts\.net-sipay-bootcamp-assignment\BookStore\BookStore\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\tugba\Desktop\cohorts\.net-sipay-bootcamp-assignment\BookStore\BookStore\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\tugba\Desktop\cohorts\.net-sipay-bootcamp-assignment\BookStore\BookStore\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\tugba\Desktop\cohorts\.net-sipay-bootcamp-assignment\BookStore\BookStore\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\tugba\Desktop\cohorts\.net-sipay-bootcamp-assignment\BookStore\BookStore\bin\Debug\net5.0\FluentValidation.dll

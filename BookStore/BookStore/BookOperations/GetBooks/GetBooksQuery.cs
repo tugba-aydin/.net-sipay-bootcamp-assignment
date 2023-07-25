@@ -1,4 +1,5 @@
-﻿using BookStore.Common;
+﻿using AutoMapper;
+using BookStore.Common;
 using BookStore.DbOperations;
 using System;
 using System.Collections.Generic;
@@ -9,24 +10,16 @@ namespace BookStore.BookOperations.GetBooks
     public class GetBooksQuery
     {
         private readonly BookStoreDbContext dbContext;
-        public GetBooksQuery(BookStoreDbContext _dbContext)
+        private readonly IMapper mapper;
+        public GetBooksQuery(BookStoreDbContext _dbContext,IMapper _mapper)
         {
             dbContext = _dbContext;
+            mapper = _mapper;
         }
         public List<BookViewModel> Handle()
         {
             var bookList = dbContext.Books.OrderBy(x => x.Id).ToList();
-            List<BookViewModel> vm = new List<BookViewModel>();
-            foreach (var book in bookList)
-            {
-                vm.Add(new BookViewModel()
-                {
-                    Title = book.Title,
-                    Genre = ((GenreEnum)book.GenreId).ToString(),
-                    PublishDate = book.PublishDate.Date.ToString("dd/MM/yyy"),
-                    PageCount = book.PageCount
-                });
-            }
+            List<BookViewModel> vm = mapper.Map<List<BookViewModel>>(bookList);
             return vm;
         }
     }
