@@ -47,3 +47,4 @@ C:\Users\tugba\Desktop\cohorts\.net-sipay-bootcamp-assignment\BookStore\BookStor
 C:\Users\tugba\Desktop\cohorts\.net-sipay-bootcamp-assignment\BookStore\BookStore\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
 C:\Users\tugba\Desktop\cohorts\.net-sipay-bootcamp-assignment\BookStore\BookStore\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\tugba\Desktop\cohorts\.net-sipay-bootcamp-assignment\BookStore\BookStore\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\tugba\Desktop\cohorts\.net-sipay-bootcamp-assignment\BookStore\BookStore\bin\Debug\net5.0\Newtonsoft.Json.dll

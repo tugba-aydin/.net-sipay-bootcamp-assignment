@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "VFF5W4cBY0JmU8x9KnczVbulvAYnnir8nbL9kaKGSoxWOSFdXckGapHk0vUiYegCekTMTtJg2xK/y0pzswCe6Q==",
+  "dgSpecHash": "vpGnhjjYZ1xo01FX8ArQIsbsCbKIbb+ms80nTZWudpcnPRLkOtPRBmOep1vXV7+yhCPzkZ1o0mgaJ0ZGTQa6zw==",
   "success": true,
   "projectFilePath": "C:\\Users\\tugba\\Desktop\\cohorts\\.net-sipay-bootcamp-assignment\\BookStore\\BookStore\\BookStore.csproj",
   "expectedPackageFiles": [
@@ -27,6 +27,7 @@
     "C:\\Users\\tugba\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\tugba\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\tugba\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\tugba\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\tugba\\.nuget\\packages\\npgsql\\5.0.0\\npgsql.5.0.0.nupkg.sha512",
     "C:\\Users\\tugba\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\5.0.0\\npgsql.entityframeworkcore.postgresql.5.0.0.nupkg.sha512",
     "C:\\Users\\tugba\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
