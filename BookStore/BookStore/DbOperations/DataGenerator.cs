@@ -14,6 +14,20 @@ namespace BookStore.DbOperations
             {
                 if (context.Books.Any()) { return; }
 
+                context.Authors.AddRange(new Author
+                {
+                    Name = "Randy",Surname="Komisar", DateOfBirth=new DateTime(1965, 10, 01)
+                },
+                new Author
+                {
+                    Name = "Frank",Surname="Herbert", DateOfBirth=new DateTime(1920, 10, 08)
+                },
+                new Author
+                {
+                    Name= "Charlotte Perkins",Surname= "Gilman",DateOfBirth=new DateTime(1860,07,03)
+                }
+                );
+
                 context.Genres.AddRange(new Genre
                 {
                     Name = "Personal Growth"
@@ -25,7 +39,6 @@ namespace BookStore.DbOperations
                 { 
                     Name = "Romance" }
                 );
-                context.SaveChanges();
 
                 context.Books.AddRange(new Book
                 {
