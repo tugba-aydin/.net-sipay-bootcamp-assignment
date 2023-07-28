@@ -1,7 +1,4 @@
 ﻿using AutoMapper;
-using BookStore.Application.BookOperations.CreateBook;
-using BookStore.Application.BookOperations.DeleteBook;
-using BookStore.Application.BookOperations.UpdateBook;
 using BookStore.Application.GenreOperations.Commands.CreateGenre;
 using BookStore.Application.GenreOperations.Commands.DeleteGenre;
 using BookStore.Application.GenreOperations.Commands.UpdateGenre;
@@ -19,9 +16,9 @@ namespace BookStore.Controllers
     [ApiController]
     public class GenreController : ControllerBase
     {
-        private readonly BookStoreDbContext dbContext;
+        private readonly IBookStoreDbContext dbContext;
         private readonly IMapper mapper;
-        public GenreController(BookStoreDbContext _dbContext, IMapper _mapper)
+        public GenreController(IBookStoreDbContext _dbContext, IMapper _mapper)
         {
             dbContext = _dbContext;
             mapper = _mapper;

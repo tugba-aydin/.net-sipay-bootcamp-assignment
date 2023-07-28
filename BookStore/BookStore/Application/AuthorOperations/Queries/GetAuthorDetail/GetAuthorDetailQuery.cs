@@ -8,9 +8,9 @@ namespace BookStore.Application.AuthorOperations.Queries.GetAuthorDetail
     public class GetAuthorDetailQuery
     {
         public int Id { get; set; }
-        private readonly BookStoreDbContext dbContext;
+        private readonly IBookStoreDbContext dbContext;
         private readonly IMapper mapper;
-        public GetAuthorDetailQuery(BookStoreDbContext _dbContext, IMapper _mapper)
+        public GetAuthorDetailQuery(IBookStoreDbContext _dbContext, IMapper _mapper)
         {
             dbContext = _dbContext;
             mapper = _mapper;

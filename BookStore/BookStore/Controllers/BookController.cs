@@ -7,9 +7,7 @@ using BookStore.Application.BookOperations.UpdateBook;
 using BookStore.DbOperations;
 using FluentValidation;
 using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+
 
 namespace BookStore.Controllers
 {
@@ -17,9 +15,9 @@ namespace BookStore.Controllers
     [ApiController]
     public class BookController : ControllerBase
     {
-        private readonly BookStoreDbContext context;
+        private readonly IBookStoreDbContext context;
         private readonly IMapper mapper;
-        public BookController(BookStoreDbContext _context, IMapper _mapper)
+        public BookController(IBookStoreDbContext _context, IMapper _mapper)
         {
             context = _context;
             mapper = _mapper;

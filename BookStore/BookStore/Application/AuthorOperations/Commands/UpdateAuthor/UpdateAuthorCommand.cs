@@ -8,8 +8,8 @@ namespace BookStore.Application.AuthorOperations.Commands.UpdateAuthor
     {
         public int AuthorId { get; set; }
         public UpdateAuthorModel Model { get; set; }
-        private readonly BookStoreDbContext dbContext;
-        public UpdateAuthorCommand(BookStoreDbContext _dbContext)
+        private readonly IBookStoreDbContext dbContext;
+        public UpdateAuthorCommand(IBookStoreDbContext _dbContext)
         {
             dbContext = _dbContext;
         }
